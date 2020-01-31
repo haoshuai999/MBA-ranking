@@ -11,7 +11,7 @@ $ python MBA_ranking.py [year] [page]
 ``` 
 
 **Example:**
-The following command will scrape the 2020 ranking of every school in north america and output the result into a CSV file named "MBA_ranking_2017.csv".
+The following command will scrape the 2020 ranking of every school in north america and output the result into a CSV file named "MBA_ranking_2020.csv".
 ```sh
 $ python MBA_ranking.py 2020 6
 ``` 
