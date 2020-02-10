@@ -2,10 +2,12 @@
 The script is used to scrape [the annual MBA rankings]("https://www.economist.com/whichmba/full-time-mba-ranking?year=2019&term_node_tid_depth=77631") in north america. For the rankings of other regions, please contact the author.
 
 **To scrape the ranking data, please:**
-1. Install Python3 on your laptop or computer
-2. Download the script MBA_ranking.py
+1. Install [Python3.6.9](https://www.python.org/downloads/) on your laptop or computer
+2. Download the script MBA_ranking.py and requirements.txt
 3. In the same directory, Run the following command:
 ```sh
+$ pip install -r requirements.txt
+(install required Python libraries)
 $ python MBA_ranking.py [year] [page] 
 (replace [year] with the year of the ranking and replace [page] with the total number pages you want)
 ``` 
